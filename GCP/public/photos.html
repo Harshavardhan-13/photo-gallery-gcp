@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Details</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="top-bar">
+      <div class="app-title">Photo</div>
+      <div class="top-actions">
+        <!-- layout toggle -->
+        <label class="layout-switch" title="Switch between gallery and list view">
+          <input type="checkbox" id="layoutToggle">
+          <div class="layout-switch-inner">
+            <div class="layout-thumb"></div>
+          </div>
+        </label>
+
+        <!-- theme toggle -->
+        <label class="theme-switch">
+          <input type="checkbox" id="themeToggle">
+          <div class="theme-switch-inner">
+            <span class="theme-text theme-text-light">LIGHT MODE</span>
+            <span class="theme-text theme-text-dark">DARK MODE</span>
+            <div class="theme-thumb"></div>
+          </div>
+        </label>
+
+        <a href="index.html" class="btn">Back to gallery</a>
+      </div>
+    </header>
+
+    <main id="photoDetails" class="detail-layout"></main>
+  </div>
+
+  <!-- ✅ IMPORTANT: config.js must be before app.js -->
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

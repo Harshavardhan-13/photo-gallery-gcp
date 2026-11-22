@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Upload</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="app-shell">
+    <header class="top-bar">
+      <div class="app-title">Upload</div>
+
+      <div class="top-actions">
+        <!-- theme toggle -->
+        <label class="theme-switch" title="Toggle light/dark mode">
+          <input type="checkbox" id="themeToggle">
+          <div class="theme-switch-inner">
+            <span class="theme-text theme-text-light">LIGHT MODE</span>
+            <span class="theme-text theme-text-dark">DARK MODE</span>
+            <div class="theme-thumb"></div>
+          </div>
+        </label>
+
+        <a href="index.html" class="btn">Back</a>
+      </div>
+    </header>
+
+    <div class="content-layout">
+      <aside class="sidebar">
+        <div class="sidebar-section-title">Library</div>
+        <a class="sidebar-item" href="index.html" style="text-decoration:none;">
+          <span class="sidebar-icon">🖼️</span>
+          <span class="sidebar-label">All Photos</span>
+        </a>
+      </aside>
+
+      <main class="main-content">
+        <div class="form-card">
+          <div id="uploadMsg" class="msg" style="display:none;"></div>
+
+          <div class="form-row">
+            <label>User Name</label>
+            <input id="userName" type="text" maxlength="100" placeholder="e.g., Demo User" />
+          </div>
+
+          <div class="form-row">
+            <label>Select Existing Topic</label>
+            <select id="topicSelect"></select>
+          </div>
+
+          <div class="form-row">
+            <label style="display:flex; gap:10px; align-items:center;">
+              <input id="useNewTopic" type="checkbox" />
+              Create a new topic
+            </label>
+          </div>
+
+          <div class="form-row">
+            <label>New Topic</label>
+            <input id="newTopic" type="text" maxlength="100" placeholder="e.g., Vacation" disabled />
+          </div>
+
+          <div class="form-row">
+            <label>Choose Photo</label>
+            <input id="photoFile" type="file" accept="image/jpeg,image/png,image/webp" />
+            <small>JPEG, PNG, or WebP · Maximum 5 MiB and 20 megapixels</small>
+          </div>
+
+          <img id="previewImg" class="preview" style="display:none;" alt="preview" />
+
+          <button id="uploadBtn" class="btn btn-primary" type="button">Upload</button>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

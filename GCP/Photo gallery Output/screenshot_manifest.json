@@ -1,0 +1,386 @@
+{
+  "project_id": "photo-gallery-515500",
+  "website": "https://photo-gallery-515500.web.app",
+  "source_screenshot_count": 46,
+  "application_and_cloud_evidence_count": 25,
+  "instruction_screenshot_count": 21,
+  "category_counts": {
+    "01_Upload_and_Gallery": 4,
+    "02_Filtering": 4,
+    "03_Photo_Details_and_Display": 5,
+    "04_API_and_Firestore_Before_Deletion": 3,
+    "05_Upload_Validation": 4,
+    "06_After_Deletion": 5,
+    "90_Test_Instructions": 21
+  },
+  "screenshots": [
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.26.31 PM (2).png",
+      "organized_path": "90_Test_Instructions/01_Test_Instructions_08-26-31_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.26.31 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "07592de7dd6a9db562e23e3c7a3eb57eca9e15d9d99acd3434ce9489a561b196",
+      "size_bytes": 232381
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.26.31 PM.png",
+      "organized_path": "01_Upload_and_Gallery/01_Gallery_One_Photo_Alice_Nature.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.26.31 PM.png",
+      "caption": "First uploaded photo: Alice / Nature, with a visible thumbnail and upload time.",
+      "sha256": "36cc83c9c30ecfcf028521e93bd9ec90758030f150e0c87ae75812ad846ab2c0",
+      "size_bytes": 631019
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.26.52 PM (2).png",
+      "organized_path": "90_Test_Instructions/02_Test_Instructions_08-26-52_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.26.52 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "c6fca8c5714fcf20e90207abb3cefcd90917e43caf369f28a0255989606d4d27",
+      "size_bytes": 232380
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.26.52 PM.png",
+      "organized_path": "04_API_and_Firestore_Before_Deletion/01_API_One_Photo_Response.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.26.52 PM.png",
+      "caption": "The /photos API returns the first photo, metadata, and Google Cloud Storage image URLs.",
+      "sha256": "ff4ab0425578dcc39ceca7c5811b7780dc4d1ce8eeeb1b70944ce02f8e2132cc",
+      "size_bytes": 304355
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.27.27 PM (2).png",
+      "organized_path": "90_Test_Instructions/03_Test_Instructions_08-27-27_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.27.27 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "1a34afb3ad21975f53b4dda6d9bab26a397e7a79829f3ddeb74650018f092460",
+      "size_bytes": 232381
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.27.27 PM.png",
+      "organized_path": "01_Upload_and_Gallery/02_Gallery_Two_Photos_Alice_and_Bob.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.27.27 PM.png",
+      "caption": "A second upload adds Bob / Travel while Alice / Nature remains.",
+      "sha256": "98d358d61a20132fbd58d049c55b7c24336a40787120a55bc0b4258e95154199",
+      "size_bytes": 856559
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.27.45 PM (2).png",
+      "organized_path": "90_Test_Instructions/04_Test_Instructions_08-27-45_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.27.45 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "3469130ddc1dd775540eda109bd28893d20c405c2cca291888a8fc47f2f2aa02",
+      "size_bytes": 232378
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.27.45 PM.png",
+      "organized_path": "01_Upload_and_Gallery/03_Upload_Preview_Alice_Existing_Travel_Topic.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.27.45 PM.png",
+      "caption": "Upload form showing Alice, the existing Travel topic, and a selected image preview. The historical preview overflow is visible.",
+      "sha256": "650ec16ee705604b4c0685b748be0217a64b6265efaaf5f60f3b0fc677560a0f",
+      "size_bytes": 2045258
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.28.03 PM (2).png",
+      "organized_path": "90_Test_Instructions/05_Test_Instructions_08-28-03_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.28.03 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "cbfcd7d8a0988eb3c78fc7c07afe2537e4076ef695b2a22e0b0c87585daf1344",
+      "size_bytes": 232381
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.28.03 PM.png",
+      "organized_path": "01_Upload_and_Gallery/04_Gallery_Three_Photos_Before_Deletion.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.28.03 PM.png",
+      "caption": "Baseline: Alice / Travel, Bob / Travel, and Alice / Nature appear together.",
+      "sha256": "738881708825cd56cec35e1445ee0cc3d38b8a932fedaafe96751f97e10e11ee",
+      "size_bytes": 1062452
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.28.16 PM (2).png",
+      "organized_path": "90_Test_Instructions/06_Test_Instructions_08-28-16_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.28.16 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "06074da0b4c66aa5fe009fca4b127883796504c0bcb9ef329c0900eed995757e",
+      "size_bytes": 236006
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.28.16 PM.png",
+      "organized_path": "02_Filtering/01_Topic_Nature_One_Photo.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.28.16 PM.png",
+      "caption": "Topic Nature and User All produce only the Nature photo.",
+      "sha256": "4980ecafc5023e809d2ccb08c282c24501fa7f20839ae958020fcaa95cd4dcfe",
+      "size_bytes": 634640
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.28.26 PM (2).png",
+      "organized_path": "90_Test_Instructions/07_Test_Instructions_08-28-26_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.28.26 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "dc3572e935df53bc8994426055726ea57098e0d316d0e166867037e3e651f560",
+      "size_bytes": 235964
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.28.26 PM.png",
+      "organized_path": "02_Filtering/02_Topic_Travel_Two_Photos.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.28.26 PM.png",
+      "caption": "Topic Travel and User All produce the two Travel photos.",
+      "sha256": "f221648cc91fff176462976fbb5db7624369e71d9ea5a414d47f9b4e3b0a5eb1",
+      "size_bytes": 777709
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.28.40 PM (2).png",
+      "organized_path": "90_Test_Instructions/08_Test_Instructions_08-28-40_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.28.40 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "24f335ec19d9c1835e4264fa0175a2f9f87fb575d1b17f7c0e3acca88eb02ff0",
+      "size_bytes": 235987
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.28.40 PM.png",
+      "organized_path": "02_Filtering/03_Combined_Travel_and_Bob_One_Photo.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.28.40 PM.png",
+      "caption": "Combining Topic Travel and User Bob produces only Bob's Travel photo.",
+      "sha256": "9927b84af84cae1c2ae0cd704ce1121ab5148628362cc18810ec0dc0f912e166",
+      "size_bytes": 557599
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.28.55 PM (2).png",
+      "organized_path": "90_Test_Instructions/09_Test_Instructions_08-28-55_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.28.55 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "4d00838bf757d2d228efba82b2d8c017c96f9662a5d6c0368956bb05327c5f67",
+      "size_bytes": 245331
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.28.55 PM.png",
+      "organized_path": "02_Filtering/04_User_Alice_Two_Photos.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.28.55 PM.png",
+      "caption": "Topic All and User Alice produce Alice's Nature and Travel photos.",
+      "sha256": "7c943f0307f8771ae05acf18d4d9667c15d0edefda1376b307f32eed01ed9e8f",
+      "size_bytes": 861058
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.29.14 PM (2).png",
+      "organized_path": "90_Test_Instructions/10_Test_Instructions_08-29-14_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.29.14 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "c65a13a5ee2d43d271214ed9393ed8db2ad107160ed6d55f632b9883c12ac19a",
+      "size_bytes": 247804
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.29.14 PM.png",
+      "organized_path": "03_Photo_Details_and_Display/01_Photo_Details_Overlay.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.29.14 PM.png",
+      "caption": "The Nature photo opens in the details overlay with user, topic, time, and actions.",
+      "sha256": "4d112c73035646d36ff2ce205a405d7310ac7430ea476950d9c2209922124ba2",
+      "size_bytes": 1650395
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.29.24 PM (2).png",
+      "organized_path": "90_Test_Instructions/11_Test_Instructions_08-29-24_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.29.24 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "0d580fbef34366c00f6c570f82b763afc2026176a810b4460e4191fecba0948b",
+      "size_bytes": 247793
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.29.24 PM.png",
+      "organized_path": "03_Photo_Details_and_Display/02_Full_Photo_and_Metadata.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.29.24 PM.png",
+      "caption": "Standalone details page displays the original Nature image and its metadata.",
+      "sha256": "513d651e7ea44440d40973cabacf6c1df4d7650bbca58599861062104c42b1a9",
+      "size_bytes": 6098630
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.29.43 PM (2).png",
+      "organized_path": "90_Test_Instructions/12_Test_Instructions_08-29-43_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.29.43 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "3608c4feca21f62fd4a827b4a30099fedc54218789e20d207d67985bd1a47aad",
+      "size_bytes": 247794
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.29.43 PM.png",
+      "organized_path": "03_Photo_Details_and_Display/03_Light_Theme_Gallery.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.29.43 PM.png",
+      "caption": "Light theme displays the same three photos.",
+      "sha256": "64075bc4d5893fe05f7d96ac79e2a5f7b18703e91f6e854ac0c760cba31948da",
+      "size_bytes": 1105497
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.29.46 PM (2).png",
+      "organized_path": "90_Test_Instructions/13_Test_Instructions_08-29-46_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.29.46 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "ea450edaff1e79e512c6b9b9048728b7869d8c597d75cf8ce118b6fb86c96983",
+      "size_bytes": 248049
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.29.46 PM.png",
+      "organized_path": "03_Photo_Details_and_Display/04_List_Layout_Gallery.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.29.46 PM.png",
+      "caption": "List layout displays the same three photos and their metadata.",
+      "sha256": "6bd7ba5493ae113478a8dc3bdac3ff7a2e9024293a61b2ca23ab3787dba6f1a6",
+      "size_bytes": 768822
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.29.55 PM (2).png",
+      "organized_path": "90_Test_Instructions/14_Test_Instructions_08-29-55_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.29.55 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "083521556ff616ed11da7dd7bbc7845787b684b3b05c70572ec83312a6c420be",
+      "size_bytes": 247791
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.29.55 PM.png",
+      "organized_path": "04_API_and_Firestore_Before_Deletion/02_API_Three_Photos_Response.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.29.55 PM.png",
+      "caption": "The /photos API returns all three uploaded photos before deletion.",
+      "sha256": "ca920cc873c12a8b05d54413bb37404322923f8070ad60be3dcccbcbf828116d",
+      "size_bytes": 482311
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.30.06 PM (2).png",
+      "organized_path": "90_Test_Instructions/15_Test_Instructions_08-30-06_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.30.06 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "88f2f21eb4b51461d8dcfa7c0da7082a728c4a50785c55ef71e1f42b5056b231",
+      "size_bytes": 247794
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.30.06 PM.png",
+      "organized_path": "03_Photo_Details_and_Display/05_Incognito_Gallery_Persistence.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.30.06 PM.png",
+      "caption": "A separate incognito session also displays the three uploaded photos.",
+      "sha256": "bc7c543d10edfc933cf14d1c8381af7d1c273d323d491a192314385c8a8465ea",
+      "size_bytes": 1053055
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.32.04 PM (2).png",
+      "organized_path": "90_Test_Instructions/16_Test_Instructions_08-32-04_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.32.04 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "c0203790e9ffb07165af46c520a47dda05e9eecb5506eaa3f76ad7e82f61439b",
+      "size_bytes": 254177
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.32.04 PM.png",
+      "organized_path": "04_API_and_Firestore_Before_Deletion/03_Firestore_Three_Documents_Before_Deletion.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.32.04 PM.png",
+      "caption": "Firestore lists three photo documents; the selected Nature document contains the expected metadata and object paths.",
+      "sha256": "73ae5fe4351382a478c1a6d8717697329b6911455c3deab2f6d6b6ebb01242f0",
+      "size_bytes": 606194
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.33.43 PM (2).png",
+      "organized_path": "90_Test_Instructions/17_Test_Instructions_08-33-43_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.33.43 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "c4bc56ae435b49f35efefda07489d02087cb4b0f92a4b572e4da2a8201020cff",
+      "size_bytes": 255691
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.33.43 PM.png",
+      "organized_path": "05_Upload_Validation/01_Missing_Image_Error.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.33.43 PM.png",
+      "caption": "The form displays: Please select an image file.",
+      "sha256": "f5c55af7f2fe38bbe197d57925d3e0b6a8056bf9e77c8d3258e0d34eaf67e51e",
+      "size_bytes": 332152
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.34.10 PM (2).png",
+      "organized_path": "90_Test_Instructions/18_Test_Instructions_08-34-10_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.34.10 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "74f38777bbefb38a4cb209b60b02bc7d4b6731114c58cf0962dd1bcece182696",
+      "size_bytes": 255694
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.34.10 PM.png",
+      "organized_path": "05_Upload_Validation/02_Missing_User_Name_Error.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.34.10 PM.png",
+      "caption": "The form displays: Please enter a user name.",
+      "sha256": "0a1293ce42709efb2dec0ec1f7c79c940ded9a33f628e594e00597062fd1aa1c",
+      "size_bytes": 1636559
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.34.31 PM (2).png",
+      "organized_path": "90_Test_Instructions/19_Test_Instructions_08-34-31_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.34.31 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "d1fb7e058e039fc1a6de58619774c647ce86dfd7933ced3140f41d5b0571c7bc",
+      "size_bytes": 255691
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.34.31 PM.png",
+      "organized_path": "05_Upload_Validation/03_Missing_Topic_Error.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.34.31 PM.png",
+      "caption": "The form displays: Please select or enter a topic.",
+      "sha256": "876c69c05fc680412e673963a5d706d08582765c8faced98101bacef61302fe1",
+      "size_bytes": 1635703
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.39.29 PM (2).png",
+      "organized_path": "90_Test_Instructions/20_Test_Instructions_08-39-29_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.39.29 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "aa3d8857a727b7062cced4deb9ed0da2d3f1ab94ff569c9b9f4723ce24d9082b",
+      "size_bytes": 255694
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.39.29 PM.png",
+      "organized_path": "05_Upload_Validation/04_Image_Over_5_MiB_Error.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.39.29 PM.png",
+      "caption": "The form rejects an oversized image with: Image must be at most 5 MiB.",
+      "sha256": "766973ad13a0248bbfe9337c289ed9dc7a4421eece86d36dab54da47b3b3419d",
+      "size_bytes": 4108986
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.40.22 PM.png",
+      "organized_path": "06_After_Deletion/01_Gallery_Two_Remaining_Photos.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.40.22 PM.png",
+      "caption": "After deletion, the gallery shows the two Travel photos. The Nature photo is absent.",
+      "sha256": "840da3116aa1035025c2666620da7efda55aca9e42d8fe8cff13b06f2c81fc84",
+      "size_bytes": 680640
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.41.19 PM (2).png",
+      "organized_path": "90_Test_Instructions/21_Test_Instructions_08-41-19_PM.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.41.19 PM (2).png",
+      "caption": "Reference screenshot of the testing instructions; not an application test result.",
+      "sha256": "9f40e7a03e41efba7544a036f8b902904c46e7566f59f59c04676cb65a778fd5",
+      "size_bytes": 243050
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.41.42 PM.png",
+      "organized_path": "06_After_Deletion/03_Firestore_Two_Documents_Nature_Deleted.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.41.42 PM.png",
+      "caption": "Firestore lists two remaining documents. The selected deleted Nature document says it does not exist; this is the expected result.",
+      "sha256": "9b2f8a8798da1117faab13b6ca2c52be9448591ca60e359e114312d9cb06abd4",
+      "size_bytes": 478562
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.42.43 PM.png",
+      "organized_path": "06_After_Deletion/04_Storage_Full_Two_Live_Originals.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.42.43 PM.png",
+      "caption": "The full/ folder contains the two remaining live originals, matching the remaining API photo IDs.",
+      "sha256": "29cf2d6c45034a3759d4ea1d020e9c66752b9d0b54363cf132925bb810730c5d",
+      "size_bytes": 596293
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.44.01 PM.png",
+      "organized_path": "06_After_Deletion/02_API_Two_Remaining_Photos.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.44.01 PM.png",
+      "caption": "After deletion, /photos returns only Alice / Travel and Bob / Travel.",
+      "sha256": "35993e94679763ba2cc1732e0888113f327a11422b7384df1d6527b22fb043f1",
+      "size_bytes": 455344
+    },
+    {
+      "original_name": "Screenshot 2026-11-21 at 8.55.49 PM.png",
+      "organized_path": "06_After_Deletion/05_Storage_Thumbs_Two_Live_Thumbnails.png",
+      "original_archive_path": "99_Original_Screenshots/Screenshot 2026-11-21 at 8.55.49 PM.png",
+      "caption": "The thumbs/ folder contains the two matching live JPEG thumbnails. The deleted Nature thumbnail is absent.",
+      "sha256": "8e1ddf07c752bfe5b3adfc4788bf3672c6cefb56a8b66bad8b58d12ae2b0c306",
+      "size_bytes": 604551
+    }
+  ]
+}

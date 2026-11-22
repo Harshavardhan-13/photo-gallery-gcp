@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Gallery (Local Prototype)</title>
+  <link rel="stylesheet" href="styles copy.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="top-bar">
+      <div class="app-title">Photos</div>
+      <div class="top-actions">
+        <!-- layout toggle -->
+        <label class="layout-switch" title="Switch between gallery and list view">
+          <input type="checkbox" id="layoutToggle">
+          <div class="layout-switch-inner">
+            <div class="layout-thumb"></div>
+          </div>
+        </label>
+
+        <!-- theme toggle -->
+        <label class="theme-switch">
+          <input type="checkbox" id="themeToggle">
+          <div class="theme-switch-inner">
+            <span class="theme-text theme-text-light">LIGHT MODE</span>
+            <span class="theme-text theme-text-dark">DARK MODE</span>
+            <div class="theme-thumb"></div>
+          </div>
+        </label>
+
+        <a href="upload_local.html" class="btn btn-primary">Upload</a>
+      </div>
+    </header>
+
+    <div class="content-layout">
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <div class="sidebar-section-title">Library</div>
+        <button id="navLibrary" class="sidebar-item active"
+                type="button" onclick="setViewMode('library')">
+          <span class="sidebar-icon">🖼️</span>
+          <span class="sidebar-label">All Photos</span>
+        </button>
+
+        <div class="sidebar-section-title" style="margin-top:14px;">Users</div>
+        <button id="navUsers" class="sidebar-item"
+                type="button" onclick="setViewMode('users')">
+          <span class="sidebar-icon">👤</span>
+          <span class="sidebar-label">Users</span>
+        </button>
+
+        <ul id="userSidebarList" class="sidebar-user-list">
+          <!-- filled by JS -->
+        </ul>
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <main class="main-content">
+        <section id="gallery" class="gallery-grid"></section>
+
+        <!-- bottom-right filter panel -->
+        <div id="filterPanel" class="filter-panel">
+          <div class="filter-panel-inner">
+            <div class="filter-header">
+              <span id="filterTitle" class="filter-title">Filter (Library)</span>
+            </div>
+            <div class="filter-row">
+              <label for="topicFilter">Topic</label>
+              <select id="topicFilter"></select>
+            </div>
+            <div class="filter-row" id="userFilterRow">
+              <label for="userFilter">User</label>
+              <select id="userFilter"></select>
+            </div>
+            <button class="btn" type="button" onclick="applyFilters()">Apply</button>
+          </div>
+        </div>
+
+        <!-- overlay for ⋯ menu -->
+        <div id="photoMenuOverlay" class="overlay-backdrop">
+          <div class="overlay-card">
+            <div class="overlay-header">
+              <div class="overlay-title">Photo details</div>
+              <button class="icon-btn" type="button" onclick="closePhotoMenu()">✕</button>
+            </div>
+            <img id="overlayThumb" class="overlay-thumb" src="" alt="thumbnail">
+            <div class="overlay-meta-row">
+              <strong>User:</strong> <span id="overlayUser"></span>
+            </div>
+            <div class="overlay-meta-row">
+              <strong>Topic:</strong> <span id="overlayTopic"></span>
+            </div>
+            <div class="overlay-meta-row">
+              <strong>Uploaded:</strong> <span id="overlayTime"></span>
+            </div>
+            <div class="overlay-footer">
+              <button class="btn" type="button" onclick="closePhotoMenu()">Close</button>
+              <button class="btn btn-primary" type="button" onclick="deleteCurrentPhoto()">Delete</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      initTheme();
+      initLayoutMode();
+      initPhotos();
+      renderUserSidebar();
+      setViewMode('library');
+    });
+  </script>
+</body>
+</html>

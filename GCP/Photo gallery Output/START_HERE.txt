@@ -1,0 +1,57 @@
+PHOTO GALLERY - GCP SCREENSHOT GUIDE
+===================================
+
+Project: photo-gallery-515500
+Website: https://photo-gallery-515500.web.app
+Capture date: November 21, 2026
+
+GITHUB EDITION
+Folders 01 through 06 contain the 25 published proof screenshots.
+The duplicate originals in 99_Original_Screenshots and the 21 chat captures
+in 90_Test_Instructions stay in the local archive and are excluded from Git.
+The manifest describes the full local collection, including those excluded
+paths; their absence from the GitHub copy is intentional.
+The historical website address above is not a guarantee of a live demo.
+
+START HERE
+Read folders 01 through 06 in order. Within each folder, open images in
+filename order. Each folder's READ_ME.txt explains what its images show.
+
+01_Upload_and_Gallery (4 images)
+  Follow the successful uploads from one photo to the three-photo baseline.
+02_Filtering (4 images)
+  Topic filters, combined topic/user filtering, and filtering by user.
+03_Photo_Details_and_Display (5 images)
+  Overlay, original photo, theme, list layout, and incognito persistence.
+04_API_and_Firestore_Before_Deletion (3 images)
+  API responses and the three Firestore records before deletion.
+05_Upload_Validation (4 images)
+  Missing image, user, topic, and oversized-image validation messages.
+06_After_Deletion (5 images)
+  Confirm the same two Travel photos remain in the gallery, API, Firestore,
+  full/ originals, and thumbs/ thumbnails after deleting the Nature photo.
+
+REFERENCE AND ORIGINALS
+90_Test_Instructions (21 images)
+  Chat instructions captured on the other monitor. These explain the test
+  procedure but are not proof that the tests were performed.
+99_Original_Screenshots (46 images)
+  Every original PNG, with its original filename and unchanged image data.
+screenshot_manifest.json
+  Original-to-organized filename mapping, captions, file sizes, and hashes.
+
+HOW TO EXPLAIN THE DELETION EVIDENCE
+Before deletion: Alice / Nature, Bob / Travel, and Alice / Travel (3 photos).
+After deletion: Bob / Travel and Alice / Travel (2 photos).
+The deleted Nature photo ID begins 861430a5-3b22-4bfd-877e.
+Firestore's "This document does not exist" message is expected for that ID.
+Storage screenshots show live objects; no claim of immediate permanent
+physical erasure is made.
+
+REVIEW LIMITS
+The screenshots support a working core college-demo flow. They do not prove
+every possible test. PNG/WebP uploads, unsupported-file rejection, exact
+thumbnail dimensions, mobile behavior, and Network/Console inspection are
+not established by this collection. Historical upload-preview overflow is
+visible in the original captures; the later local CSS adjustment is not
+represented here.

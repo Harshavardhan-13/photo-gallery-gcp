@@ -1,0 +1,38 @@
+# Local environments and downloaded dependencies
+**/node_modules/
+**/venv/
+**/.venv/
+**/__pycache__/
+*.py[cod]
+**/.firebase/
+**/firebase-debug.*
+**/*-debug.log
+**/test-results/
+**/playwright-report/
+
+# Local configuration and credentials; keep only the configuration example
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+**/application_default_credentials.json
+**/*service-account*.json
+**/*credentials*.json
+*.pem
+*.key
+.DS_Store
+
+# Local authoring output, transcript exports, and duplicate evidence
+GCP/output/
+GCP/tmp/
+GCP/GCP Project Quota Setup.rtf
+GCP/Photo gallery Output/90_Test_Instructions/
+GCP/Photo gallery Output/99_Original_Screenshots/
+
+# Historical AWS downloaded Lambda layer and local sample materials
+AWS/pillow_layer/
+AWS/images/
+AWS/sucess/
+AWS/sample.jpeg
+AWS/project_ideas.pdf

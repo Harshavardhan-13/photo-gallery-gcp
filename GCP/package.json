@@ -1,0 +1,13 @@
+{
+  "name": "photo-gallery-gcp",
+  "private": true,
+  "scripts": {
+    "deploy": "firebase deploy --only functions,hosting,firestore:rules",
+    "emulators": "firebase emulators:start --only functions,hosting,firestore",
+    "test": "functions/venv/bin/python -m unittest discover -s tests -v"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1",
+    "firebase-tools": "15.37.0"
+  }
+}
